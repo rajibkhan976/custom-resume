@@ -1,12 +1,12 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 function AboutClientSingle({ title, image }) {
 	return (
-		<div className="py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark  shadow-sm rounded-lg mb-5 cursor-pointer">
+		<div className='flex items-center justify-center py-5 px-10 border bg-secondary-light border-ternary-light dark:border-ternary-dark  shadow-sm rounded-lg mb-5 cursor-pointer'>
 			<Image
 				src={image}
 				alt={title}
-				layout="responsive"
+				layout='responsive'
 				width={100}
 				height={50}
 			/>

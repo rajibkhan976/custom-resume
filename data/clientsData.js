@@ -1,56 +1,56 @@
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from "uuid";
 
 // Import images
-import AmazonImage from '../public/images/brands/amazon_gray.png';
-import SonyImage from '../public/images/brands/sony_gray.png';
-import AdidasImage from '../public/images/brands/adidas_gray.png';
-import FilaImage from '../public/images/brands/fila_gray.png';
-import NBImage from '../public/images/brands/nb_gray.png';
-import SamsungImage from '../public/images/brands/samsung_gray.png';
-import CanonImage from '../public/images/brands/canon_gray.png';
-import PumaImage from '../public/images/brands/puma_gray.png';
+import JustGo from "../public/images/brands/just_go.webp";
+import Gigalogy from "../public/images/brands/gigalogy.png";
+import Flashtalking from "../public/images/brands/innovid_logo.png";
+import SOLShare from "../public/images/brands/solshare_logo.svg";
+import IngramMicro from "../public/images/brands/ingram_micro.jpg";
+import OWNPROP from "../public/images/brands/own_prop.svg";
+import NUCLICORE from "../public/images/brands/nucli_core.png";
+import RETREAT from "../public/images/brands/retreat_logo.webp";
 
-export const clientsHeading = 'Some of the brands I worked with';
+export const clientsHeading = "Some of the brands I worked with";
 
 export const clientsData = [
 	{
 		id: uuidv4(),
-		title: 'Amazon',
-		img: AmazonImage,
+		title: "JustGo",
+		img: JustGo,
 	},
 	{
 		id: uuidv4(),
-		title: 'Sony',
-		img: SonyImage,
+		title: "Gigalogy",
+		img: Gigalogy,
 	},
 	{
 		id: uuidv4(),
-		title: 'Adidas',
-		img: AdidasImage,
+		title: "Flashtalking",
+		img: Flashtalking,
 	},
 	{
 		id: uuidv4(),
-		title: 'FILA',
-		img: FilaImage,
+		title: "SOLShare",
+		img: SOLShare,
 	},
 	{
 		id: uuidv4(),
-		title: 'NB',
-		img: NBImage,
+		title: "IngramMicro",
+		img: IngramMicro,
 	},
 	{
 		id: uuidv4(),
-		title: 'SAMSUNG',
-		img: SamsungImage,
+		title: "OWNPROP",
+		img: OWNPROP,
 	},
 	{
 		id: uuidv4(),
-		title: 'CANON',
-		img: CanonImage,
+		title: "NUCLICORE",
+		img: NUCLICORE,
 	},
 	{
 		id: uuidv4(),
-		title: 'PUMA',
-		img: PumaImage,
+		title: "RETREAT",
+		img: RETREAT,
 	},
 ];
