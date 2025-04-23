@@ -17,40 +17,48 @@ export const clientsData = [
 		id: uuidv4(),
 		title: "JustGo",
 		img: JustGo,
+		url: "https://pca.justgo.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "Gigalogy",
 		img: Gigalogy,
+		url: "https://gigalogy.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "Flashtalking",
 		img: Flashtalking,
+		url: "https://www.flashtalking.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "SOLShare",
 		img: SOLShare,
+		url: "https://solshare.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "IngramMicro",
 		img: IngramMicro,
+		url: "https://www.ingrammicro.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "OWNPROP",
 		img: OWNPROP,
+		url: "https://www.ownprop.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "NUCLICORE",
 		img: NUCLICORE,
+		url: "https://nuclicore.com/",
 	},
 	{
 		id: uuidv4(),
 		title: "RETREAT",
 		img: RETREAT,
+		url: "https://www.planretreat.com/",
 	},
 ];

@@ -16,6 +16,7 @@ function AboutClients() {
 						title={client.title}
 						image={client.img}
 						key={client.id}
+						url={client?.url}
 					/>
 				))}
 			</div>
