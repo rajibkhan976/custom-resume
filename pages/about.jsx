@@ -9,13 +9,16 @@ function about() {
 		<div className='flex flex-col justify-center'>
 			<PagesMetaHead title="About Me" />
 			<h1 className='mx-auto py-8 text-3xl'>My Contribution for my current employee</h1>
+			<a target='_blank' href='https://github.com/rajib-abweb' className='rounded' rel='noreferrer'>
 			<iframe
-			className='mx-auto w-full px-36'
-			id="inlineFrameExample"
-			title="Inline Frame Example"
-			height="320"
-			src="https://jandi.firejune.io/rajib-abweb">
+				className='md:mx-auto w-full md:px-36 px-4 md:h-64'
+				id="inlineFrameExample"
+				title="Inline Frame Example"
+				src="https://jandi.firejune.io/rajib-abweb"
+			>
 			</iframe>
+			</a>
+			
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
