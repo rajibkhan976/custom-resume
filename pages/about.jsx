@@ -6,9 +6,16 @@ import PagesMetaHead from '../components/PagesMetaHead';
 
 function about() {
 	return (
-		<div>
+		<div className='flex flex-col justify-center'>
 			<PagesMetaHead title="About Me" />
-
+			<h1 className='mx-auto py-8 text-3xl'>My Contribution for my current employee</h1>
+			<iframe
+			className='mx-auto w-full px-36'
+			id="inlineFrameExample"
+			title="Inline Frame Example"
+			height="320"
+			src="https://jandi.firejune.io/rajib-abweb">
+			</iframe>
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
