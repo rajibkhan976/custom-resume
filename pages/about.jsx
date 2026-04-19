@@ -8,7 +8,7 @@ function about() {
 	return (
 		<div className='flex flex-col justify-center'>
 			<PagesMetaHead title="About Me" />
-			<h1 className='mx-auto py-8 text-3xl'>My Contribution for my current employee</h1>
+			<h1 className='mx-auto px-4 py-8 text-3xl'>My Contribution for my current employee</h1>
 			<a target='_blank' href='https://github.com/rajib-abweb' className='rounded' rel='noreferrer'>
 			<iframe
 				className='md:mx-auto w-full md:px-36 px-4 md:h-64'
